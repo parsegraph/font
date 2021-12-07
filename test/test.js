@@ -1,8 +1,8 @@
 var assert = require("assert");
-import todo from "../dist/parsegraph-font";
+import Font from "../dist/parsegraph-font";
 
-describe("Package", function () {
-  it("works", ()=>{
-    assert.equal(todo(), 42);
+describe("Font", function () {
+  it("works", () => {
+    assert.ok(new Font(18, "serif"));
   });
 });

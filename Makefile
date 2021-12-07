@@ -1,7 +1,8 @@
 DIST_NAME = font
 
 SCRIPT_FILES = \
-	src/index.ts
+	src/index.ts \
+	src/Font.ts
 
 all: build lint test coverage esdoc
 
