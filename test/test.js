@@ -1,5 +1,5 @@
 var assert = require("assert");
-import todo from "../dist/parsegraph-TODO-PACKAGE-NAME";
+import todo from "../dist/parsegraph-font";
 
 describe("Package", function () {
   it("works", ()=>{
