@@ -1,6 +1,6 @@
 {
   "name": "parsegraph-font",
-  "version": "1.6.0",
+  "version": "1.6.0-dev",
   "description": "font",
   "main": "dist/parsegraph-font.js",
   "types": "dist/font.d.ts",
