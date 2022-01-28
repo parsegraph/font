@@ -1,4 +1,3 @@
-import Font, { GlyphPage, GlyphData, FontWindow } from "./Font";
+import Font from "./Font";
 
 export default Font;
-export { GlyphPage, GlyphData, FontWindow };
