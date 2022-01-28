@@ -15,7 +15,5 @@
   },
   "homepage": "https://github.com/parsegraph/font#readme",
   "dependencies": {
-    "parsegraph-sdf": "^1.5.5",
-    "parsegraph-window": "^1.7.4"
   }
 }
