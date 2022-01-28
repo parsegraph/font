@@ -6,7 +6,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist-prod"),
     filename: "parsegraph-font.js",
     globalObject: "this",
-    library: "parsegraph",
+    library: "parsegraph_font",
     libraryTarget: "umd",
   },
   module: {
