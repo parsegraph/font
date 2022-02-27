@@ -2,8 +2,8 @@
   "name": "parsegraph-font",
   "version": "1.7.0",
   "description": "font",
-  "main": "dist/parsegraph-font.js",
-  "types": "dist/font.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "scripts": {
     "coverage": "nyc npm run test",
     "test": "cross-env TS_NODE_PROJECT=\"tsconfig.testing.json\" mocha",
