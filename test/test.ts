@@ -1,5 +1,5 @@
 var assert = require("assert");
-import Font from "../dist/parsegraph-font";
+import Font from "../src/index";
 
 describe("Font", function () {
   it("works", () => {
