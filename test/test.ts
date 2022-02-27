@@ -1,4 +1,4 @@
-var assert = require("assert");
+const assert = require("assert");
 import Font from "../src/index";
 
 describe("Font", function () {

@@ -17,9 +17,7 @@ export default class Font {
   }
 
   toString() {
-    return (
-      `[Font ${this.id()}: ${this.fullName()}]`
-    );
+    return `[Font ${this.id()}: ${this.fullName()}]`;
   }
 
   fontString() {
