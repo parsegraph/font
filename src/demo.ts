@@ -1,11 +1,13 @@
-import todo from ".";
+import Font from ".";
 
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById("demo");
   root.style.position = "relative";
 
+  const font = new Font(18, "serif");
+
   const container = document.createElement("div");
-  container.innerHTML = `${todo()}`;
+  container.innerHTML = `${font.fontString()}`;
   container.style.position = "absolute";
   container.style.left = "0px";
   container.style.top = "0px";
